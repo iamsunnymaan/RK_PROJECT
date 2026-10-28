@@ -1,0 +1,22 @@
+@model Customer
+@{
+    ViewData["Title"] = "Delete Customer";
+}
+<div class="card shadow-sm border-danger">
+    <div class="card-header bg-danger text-white"><h5 class="mb-0">Delete Customer</h5></div>
+    <div class="card-body">
+        <p>Are you sure you want to delete this customer? This cannot be undone.</p>
+        <dl class="row mb-0">
+            <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Name)</dt>
+            <dd class="col-sm-9">@Model.Name</dd>
+            <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Email)</dt>
+            <dd class="col-sm-9">@Model.Email</dd>
+            <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Phone)</dt>
+            <dd class="col-sm-9">@Model.Phone</dd>
+        </dl>
+    </div>
+    <form asp-action="Delete" asp-route-id="@Model.Id" method="post" class="card-footer bg-white text-end">
+        <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+        <button type="submit" class="btn btn-danger"><i class="bi bi-trash me-1"></i>Delete</button>
+    </form>
+</div>

@@ -1,0 +1,20 @@
+@model Customer
+@{
+    ViewData["Title"] = "Add Customer";
+}
+<div class="card shadow-sm">
+    <div class="card-header bg-white"><h5 class="mb-0">Add Customer</h5></div>
+    <form asp-action="Create" method="post">
+        <div class="card-body">
+            <partial name="_Form" model="Model" />
+        </div>
+        <div class="card-footer bg-white text-end">
+            <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+            <button type="submit" class="btn btn-primary"><i class="bi bi-save me-1"></i>Save</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\Projects\\RK_PROJECT\\MY_PROJECT\\MY_PROJECT\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MY_PROJECT.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MY_PROJECT.props",
+      "PackagePath": "build\\MY_PROJECT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MY_PROJECT.props",
+      "PackagePath": "buildMultiTargeting\\MY_PROJECT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MY_PROJECT.props",
+      "PackagePath": "buildTransitive\\MY_PROJECT.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
