@@ -129,32 +129,23 @@ The port is set in `MY_PROJECT/Properties/launchSettings.json` and as a default 
 
 ## Screenshots
 
-### Login
-![Login](docs/screenshots/01-login.png)
-
-### Login error
-![Login error](docs/screenshots/02-login-error.png)
-
-### Customer list
-![Customer list](docs/screenshots/03-customers-list.png)
-
-### Search
-![Search](docs/screenshots/04-search.png)
-
-### Add customer
-![Add customer](docs/screenshots/06-add-form.png)
-
-### Validation errors
-![Validation errors](docs/screenshots/05-add-validation.png)
-
-### Customer details
-![Customer details](docs/screenshots/07-details.png)
-
-### Edit customer
-![Edit customer](docs/screenshots/08-edit.png)
-
-### Delete confirmation
-![Delete confirmation](docs/screenshots/09-delete.png)
+<table>
+  <tr>
+    <td align="center" width="33%"><img src="docs/screenshots/01-login.png" alt="Login"><br><sub>Login</sub></td>
+    <td align="center" width="33%"><img src="docs/screenshots/02-login-error.png" alt="Login error"><br><sub>Login error</sub></td>
+    <td align="center" width="33%"><img src="docs/screenshots/03-customers-list.png" alt="Customer list"><br><sub>Customer list</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%"><img src="docs/screenshots/04-search.png" alt="Search"><br><sub>Search</sub></td>
+    <td align="center" width="33%"><img src="docs/screenshots/06-add-form.png" alt="Add customer"><br><sub>Add customer</sub></td>
+    <td align="center" width="33%"><img src="docs/screenshots/05-add-validation.png" alt="Validation errors"><br><sub>Validation errors</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%"><img src="docs/screenshots/07-details.png" alt="Customer details"><br><sub>Customer details</sub></td>
+    <td align="center" width="33%"><img src="docs/screenshots/08-edit.png" alt="Edit customer"><br><sub>Edit customer</sub></td>
+    <td align="center" width="33%"><img src="docs/screenshots/09-delete.png" alt="Delete confirmation"><br><sub>Delete confirmation</sub></td>
+  </tr>
+</table>
 
 ## Note
 
